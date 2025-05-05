@@ -7,7 +7,7 @@ class TransactionRequestSerializer(serializers.Serializer):
 
     def validate_amount(self, value):
         if value <= 0:
-            raise serializers.ValidationError("금액은 0보다 커야 합니다.")
+            raise serializers.ValidationError("[AIM]금액은 0보다 커야 합니다.")
         return value
 
         

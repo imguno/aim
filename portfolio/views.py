@@ -109,7 +109,7 @@ class PortfolioRequestView(APIView):
 class SecuritiesRegisterView(APIView):
 
     @swagger_auto_schema(
-        tags=["3. MARKER API"],
+        tags=["3. MARKET API"],
         operation_id="증권 등록",
         request_body=openapi.Schema(
             type=openapi.TYPE_OBJECT,
@@ -151,7 +151,7 @@ class SecuritiesRegisterView(APIView):
         return Response(filter_error_message(serializer.errors), status=400)
 
     @swagger_auto_schema(
-        tags=["3. MARKER API"],
+        tags=["3. MARKET API"],
         operation_id="증권 조회",
         responses={
             200: openapi.Response(
@@ -177,7 +177,7 @@ class SecuritiesRegisterView(APIView):
 class SecuritiesUpdatePriceView(APIView):
 
     @swagger_auto_schema(
-        tags=["3. MARKER API"],
+        tags=["3. MARKET API"],
         operation_id="증권 수정",
         request_body=openapi.Schema(
             type=openapi.TYPE_OBJECT,
@@ -228,7 +228,7 @@ class SecuritiesUpdatePriceView(APIView):
 class SecuritiesDeleteView(APIView):
 
     @swagger_auto_schema(
-        tags=["3. MARKER API"],
+        tags=["3. MARKET API"],
         operation_id="증권 삭제",
         request_body=openapi.Schema(
             type=openapi.TYPE_OBJECT,
