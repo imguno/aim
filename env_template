@@ -1,0 +1,6 @@
+DEBUG=True
+DB_NAME=aim
+DB_USER=root
+DB_PASSWORD=aim_mysql_password
+DB_HOST=127.0.0.1
+DB_PORT=3306
