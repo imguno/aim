@@ -1,13 +1,16 @@
 # aim
 
 ## 주요 기술 스택
-
 - Python 3.12.3 
 - Django
 - Django REST Framework
 - Celery
 - Redis
 - MySQL 8.0.41
+- AWS ec2
+
+### Swagger API
+http://13.209.7.212:8000
 
 ## 프로젝트 실행 방법
 ### 1. 가상환경 설정
