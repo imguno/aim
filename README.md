@@ -9,9 +9,10 @@
 - MySQL 8.0.41
 - AWS ec2
 
-### Swagger API
-http://13.209.7.212:8000
-
+## API 문서 (Swagger)
+- Swagger UI: [http://13.209.7.212:8000/swagger/](http://13.209.7.212:8000/swagger/)
+- Redoc: [http://13.209.7.212:8000/redoc/](http://13.209.7.212:8000/redoc/)
+  
 ## 프로젝트 실행 방법
 ### 1. 가상환경 설정
 ```bash
